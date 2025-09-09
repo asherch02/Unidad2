@@ -1,0 +1,76 @@
+/* Estilos base */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulario {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 320px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+/* Al enfocar */
+input:focus, textarea:focus {
+  border-color: #0066ff;
+  background: #f0f7ff;
+}
+
+/* Campos requeridos no válidos */
+input:required:invalid, 
+textarea:required:invalid {
+  border-color: #e63946;
+  background: #ffe6e9;
+}
+
+/* Campos requeridos válidos */
+input:required:valid, 
+textarea:required:valid {
+  border-color: #2a9d8f;
+  background: #e8f9f4;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #0066ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0044cc;
+}
