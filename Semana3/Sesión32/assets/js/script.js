@@ -1,7 +1,10 @@
 /*
-Seleccionamos elementos del DOM gracias al objeto "document" y algunos de sus metodos:
+Seleccionamos elementos del DOM gracias al 
+objeto "document" y algunos de sus metodos:
 
-getElementById("nombre-id") -> Obtiene el elemento con el id "nombre-id".
+getElementById("nombre-id") -> Obtiene el 
+elemento con el id "nombre-id".
+
 */
 // Seleccionando un elemento por ID y almacenandolo en una variable
 let mainTitle = document.getElementById("main-title");
@@ -16,7 +19,8 @@ mainTitle.innerText = "OTRO TITULO";
 // Mostramos el contenido de mainTitle nuevamente
 console.log(mainTitle.innerText);
 
-// getElementsByClassName("nombre-clase") -> Obtiene todos los elementos con la clase "nombre-clase".
+// getElementsByClassName("nombre-clase") -> Obtiene
+// todos los elementos con la clase "nombre-clase".
 // Esto devuelve un arreglo, aunque solo sea un elemento
 let mainTexts = document.getElementsByClassName("main-text");
 console.log(mainTexts); // Esto es un ARREGLO y sus elementos son Elementos HTML
@@ -34,10 +38,15 @@ console.log(subtitles[2].innerText);
 
 console.log("SELECTOR POR CSS");
 /*
-Selectores por CSS, se llaman asi porque usan la sintaxis de un selector CSS para seleccionar los elementos del DOM.
+Selectores por CSS, se llaman asi porque usan la 
+sintaxis de un selector CSS para seleccionar los 
+elementos del DOM.
 
-querySelector("selector") -> Devuelve el primer elemento que coincida con el selector.
-querySelectorAll("selector") -> Devuelve un arreglo de elementos que coincidan con el selector.
+querySelector("selector") -> Devuelve el primer 
+elemento que coincida con el selector.
+querySelectorAll("selector") -> Devuelve un arreglo 
+de elementos que coincidan con el selector.
+
 */
 // let mainTitle = document.getElementById("main-title");
 let queryMainTitle = document.querySelector("#main-title");
@@ -50,7 +59,8 @@ console.log(queryMainTexts);
 // EVENTOS
 console.log("EVENTOS");
 
-/*Selecciono un elemento y le agrego un evento. No es necesario almacenar el elemento en alguna variable
+/*Selecciono un elemento y le agrego un evento. 
+No es necesario almacenar el elemento en alguna variable
 
 [SELECCIONAR ELEMENTO].addEventListener("nombre-evento", function () {
   // FUNCION A EJECUTAR CUANDO SUCEDA ESE EVENTO

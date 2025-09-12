@@ -17,6 +17,7 @@ El objetivo es reforzar conceptos clave, mejorar la lógica computacional y apli
 - **Sesión 30** → [Objetos y JSON] 
 - **Sesión 32** → [POO y estructuras de datos] 
 - **Sesión 33** → [DOM y eventos]  
+- **Sesión 36** → [Gestión de ramas] 
 
 ---
 

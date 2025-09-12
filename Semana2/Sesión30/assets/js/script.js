@@ -26,13 +26,13 @@ let nombreObjeto = {
     atributo3: valor3
 };
 */
-// Ejemplo de un objeto, UNA PESONA
+// Ejemplo de un objeto, UNA PERSONA
 
 let person = {
-    name: "Asher",
-    age: 16,
-    cellphone: "123456789",
-    hobbies: ["programar", "dibujar", "escuchar música"],
+  name: "Asher",
+  age: 16,
+  cellphone: "123456789",
+  hobbies: ["programar", "dibujar", "escuchar música"],
 };
 
 console.log(person);
@@ -75,53 +75,49 @@ Estos archivos
 */
 
 let heroes = {
-    "squadName": "Super hero squad",
-    "homeTown": "Metro City",
-    "formed": 2016,
-    "secretBase": "Super tower",
-    "active": true,
-    "members": [
-      {
-        "name": "Molecule Man",
-        "age": 29,
-        "secretIdentity": "Dan Jukes",
-        "powers": [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
-        ]
-      },
-      {
-        "name": "Madame Uppercut",
-        "age": 39,
-        "secretIdentity": "Jane Wilson",
-        "powers": [
-          "Million tonne punch",
-          "Damage resistance",
-          "Superhuman reflexes"
-        ]
-      },
-      {
-        "name": "Eternal Flame",
-        "age": 1000000,
-        "secretIdentity": "Unknown",
-        "powers": [
-          "Immortality",
-          "Heat Immunity",
-          "Inferno",
-          "Teleportation",
-          "Interdimensional travel"
-        ]
-      }
-    ]
-  }
-  console.log(heroes);
-  console.log(heroes.members[0].powers[1]);
+  squadName: "Super hero squad",
+  homeTown: "Metro City",
+  formed: 2016,
+  secretBase: "Super tower",
+  active: true,
+  members: [
+    {
+      name: "Molecule Man",
+      age: 29,
+      secretIdentity: "Dan Jukes",
+      powers: ["Radiation resistance", "Turning tiny", "Radiation blast"],
+    },
+    {
+      name: "Madame Uppercut",
+      age: 39,
+      secretIdentity: "Jane Wilson",
+      powers: [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes",
+      ],
+    },
+    {
+      name: "Eternal Flame",
+      age: 1000000,
+      secretIdentity: "Unknown",
+      powers: [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel",
+      ],
+    },
+  ],
+};
+console.log(heroes);
+console.log(heroes.members[0].powers[1]);
 
-  //Reto 4
-  //Accede al objeto mostrar los siguientes valores:
-  // damage resistance, eternal flame, inferno. uno cada 
-  // uno por separado
-  console.log(heroes.members[1].powers[1]);
-  console.log(heroes.members[2].name);
-  console.log(heroes.members[2].powers[2]);
+//Reto 4
+//Accede al objeto mostrar los siguientes valores:
+// damage resistance, eternal flame, inferno. uno cada
+// uno por separado
+console.log(heroes.members[1].powers[1]);
+console.log(heroes.members[2].name);
+console.log(heroes.members[2].powers[2]);
