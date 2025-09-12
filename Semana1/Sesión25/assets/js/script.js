@@ -1,17 +1,16 @@
 // Hola Mundo
-console.log('Hola mundo');
+console.log("Hola mundo");
 
 // Suma
 let sumando1 = 5;
-let sumando2 = 10;
+let sumando2 = 12;
 
 console.log(sumando1);
 console.log(sumando2);
 console.log(sumando1 + sumando2);
 
+console.log("resultadoSuma");
 let resultadoSuma = sumando1 + sumando2;
-console.log(resultadoSuma);
-
 
 // Resta
 let minuendo = 5;
@@ -22,7 +21,7 @@ console.log("resultado resta");
 console.log(resta);
 
 // Multiplicación
-let factor1 =20
+let factor1 = 20;
 let factor2 = 8;
 let producto = factor1 * factor2;
 console.log("resultado multiplicación");
@@ -30,14 +29,14 @@ console.log(producto);
 
 // División
 let dividendo = 20;
-let divisor = 4;   
+let divisor = 4;
 let cociente = dividendo / divisor;
 console.log("resultado división");
 console.log(cociente);
 
 // Operación  combinada
 console.log("Operación combinada");
-console.log(15 + 43 / (4+8) * 2);
+console.log(15 + (43 / (4 + 8)) * 2);
 
 /* Módulo %
 Me devuelve el residuo de una división */
@@ -54,7 +53,7 @@ a**b -> Eleva el número 'a' a la potencia de 'b'
 */
 let base = 2;
 let exponente = 3;
-let restultadoPotencia = base**exponente;
+let restultadoPotencia = base ** exponente;
 
 console.log("resultado potencia");
 console.log(restultadoPotencia);
@@ -75,7 +74,7 @@ let valor1 = 6;
 let valor2 = 3;
 // comparamos
 let mayorQue = valor1 > valor2;
-console.log(mayorQue)
+console.log(mayorQue);
 console.log(valor1 < valor2);
 console.log(valor1 >= valor2);
 console.log(valor1 <= valor2);
@@ -90,7 +89,7 @@ console.log(valor1 <= valor2);
 */
 
 let datoNumber = 1; //number
-let datoString = '1'; //string
+let datoString = "1"; //string
 
 //igualdad
 console.log(datoNumber == datoString); //true
@@ -130,12 +129,11 @@ console.log("NOT");
 console.log(!true); //false
 console.log(!false); //true
 
-
 //Strings
 //van siempre entre comillas
 
 //comillas simples
-let simples = 'Strings entre comillas simples';
+let simples = "Strings entre comillas simples";
 console.log(simples);
 
 //comillas dobles
@@ -145,10 +143,10 @@ console.log(dobles);
 //comillas invertidas o backticks
 /* Son las que permiten interpolar variables y expresiones y 
 escribir strings en varias líneas */
-let backticks = `Strings entre backticks`;      
+let backticks = `Strings entre backticks`;
 console.log(backticks);
 //interpolación de variables
-let nombreCompleto = 'Asher';
+let nombreCompleto = "Asher";
 let edad = 17;
 let saludo = `Hola, me llamo ${nombreCompleto}, tengo ${edad} años.`;
 console.log(saludo);
@@ -165,8 +163,8 @@ console.log(texto);
 /* Escapar caracteres -> Sirve para que un carácter especial
 sea interpretado como un carácter normal */
 
-let miguelGrau = "Miguel Grau dijo: \"Mi patria es primero\".";
+let miguelGrau = 'Miguel Grau dijo: "Mi patria es primero".';
 console.log(miguelGrau);
 
-let prueba2 = 'It\'s me';
+let prueba2 = "It's me";
 console.log(prueba2);

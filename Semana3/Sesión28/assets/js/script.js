@@ -7,8 +7,8 @@ Sintaxis:
 
 function nombreFuncion() {
   // Código de mi función
-  // Todo este codigo se ejecutará cada vez
-  // que yo "llame" a mi función
+  // Este codigo se ejecutará cada vez que yo "llame" 
+  // a mi función
 }
 
 Dato importante: Lo mas recomendable para nombrar funciones,
@@ -16,10 +16,9 @@ es hacerlo con verbos descriptivos en infinitivo.
 */
 
 console.log("FUNCIONES");
-// Ejemplo: Escribe un saludo, muestra un número y muestra tu nombre;
+// Ejemplo: Escribe un saludo, muestra un número y muestra tu nombre
 // Definir una función
 function mostrarMensajes() {
-  // Codigo de la funcion
   console.log("Inicio");
   console.log("Buenas noches");
   console.log(8);
@@ -27,20 +26,21 @@ function mostrarMensajes() {
   console.log("Fin");
 }
 
-// Llamar a la función, NO OLVIDES LOS ()
-// console.log("LLAMADA #1");
-// mostrarMensajes();  // Con la llamada se ejecuta su codigo
-// console.log("LLAMADA #2");
-// mostrarMensajes();
-// console.log("LLAMADA #3");
-// mostrarMensajes();
-// console.log("LLAMADA #4");
-// mostrarMensajes();
-// console.log("LLAMADA #5");
-// mostrarMensajes();
+/* Llamar a la función, NO OLVIDES LOS () AL LLAMARLA
+ console.log("LLAMADA #1");
+ mostrarMensajes();  // Con la llamada se ejecuta su codigo
+ console.log("LLAMADA #2");
+ mostrarMensajes();
+ console.log("LLAMADA #3");
+ mostrarMensajes();
+ console.log("LLAMADA #4");
+ mostrarMensajes();
+ console.log("LLAMADA #5");
+ mostrarMensajes();
+ */
 
-// Reto 1: Crea una function que imprima los numeros
-// del 1 al 10 (1 por 1)
+// Reto 1: Crea una function que imprima los numeros del 1 
+// al 10 (1 por 1)
 console.log("Reto 1");
 // Definimos la funcion
 function showNumbers() {
