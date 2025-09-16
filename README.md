@@ -34,3 +34,5 @@ El objetivo es reforzar conceptos clave, mejorar la lógica computacional y apli
 1. Clonar el repositorio:  
    ```bash
    git clone https://github.com/asherch02/Unidad2.git
+
+Gracias :3
